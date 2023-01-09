@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8294284700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login correcto",
+        "description": "",
+        "id": "login;login-correcto",
+        "after": [
+          {
+            "result": {
+              "duration": 624530099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205669000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "El usuario navega al sitio web de sauce demo",
+            "match": {
+              "location": "HU03Step.el_usuario_navega_al_sitio_web_de_sauce_demo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 340815401,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "El usuario ingresa las credenciales correctas",
+            "match": {
+              "location": "HU03Step.el_usuario_ingresa_las_credenciales_correctas()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47781601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "El usuario deberia ver que se logueo correctamente",
+            "match": {
+              "location": "HU03Step.el_usuario_deberia_ver_que_se_logueo_correctamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3099611500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login incorrecto",
+        "description": "",
+        "id": "login;login-incorrecto",
+        "after": [
+          {
+            "result": {
+              "duration": 667088101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7554701,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "El usuario navega al sitio web de sauce demo",
+            "match": {
+              "location": "HU03Step.el_usuario_navega_al_sitio_web_de_sauce_demo()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286944999,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "El usuario ingresa las credenciales incorrectas",
+            "match": {
+              "location": "HU03Step.el_usuario_ingresa_las_credenciales_incorrectas()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38329799,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "El usuario deberia ver que se loguea incorrectamente",
+            "match": {
+              "location": "HU03Step.el_usuario_deberia_ver_que_se_loguea_incorrectamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "\r\nComo usuario me quiero loguear en la aplicacion Sauce Demo",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "HU03.feature"
+  }
+]
